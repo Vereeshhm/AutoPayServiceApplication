@@ -23,74 +23,68 @@ import jakarta.persistence.Table;
 @Table(name = "api_logss")
 public class ApiLog {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "api_logss_seq")
-    @SequenceGenerator(name = "api_logss_seq", sequenceName = "api_logss_seq", allocationSize = 1)
-    private Long id;
+	@Id
+	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "api_logss_seq")
+	@SequenceGenerator(name = "api_logss_seq", sequenceName = "api_logss_seq", allocationSize = 1)
+	private Long id;
 
-    private String url;
-
-//    @Type(JsonBinaryType.class)
-//    @Column(columnDefinition = "jsonb")
-    @Column(columnDefinition = "TEXT")
-    private String requestBody;
-//
-//    @Type(JsonBinaryType.class)
-//    @Column(columnDefinition = "jsonb")
-    @Column(columnDefinition = "TEXT")
-    private String responseBody;
-
-  
-    private int status;
-
-    private LocalDateTime timestamp;
-
-    public ApiLog() {
-        // Constructor logic (if any)
-    }
-
-    @PrePersist
-    protected void onCreate() {
-        this.timestamp = LocalDateTime.now().truncatedTo(ChronoUnit.SECONDS);
-    }
-
-    // Getters and setters
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public String getUrl() {
-        return url;
-    }
-
-    public void setUrl(String url) {
-        this.url = url;
-    }
-
-    public String getRequestBody() {
-        return requestBody;
-    }
-
-    public void setRequestBody(String requestBody) {
-        this.requestBody = requestBody;
-    }
-
-    public String getResponseBody() {
-        return responseBody;
-    }
-
-    public void setResponseBody(String responseBody) {
-        this.responseBody = responseBody;
-    }
+	private String url;
 
 
+	@Column(columnDefinition = "TEXT")
+	private String requestBody;
 
-    public int getStatus() {
+	@Column(columnDefinition = "TEXT")
+	private String responseBody;
+
+	private int status;
+
+	private LocalDateTime timestamp;
+
+	public ApiLog() {
+		// Constructor logic (if any)
+	}
+
+	@PrePersist
+	protected void onCreate() {
+		this.timestamp = LocalDateTime.now().truncatedTo(ChronoUnit.SECONDS);
+	}
+
+	// Getters and setters
+
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+	public String getUrl() {
+		return url;
+	}
+
+	public void setUrl(String url) {
+		this.url = url;
+	}
+
+	public String getRequestBody() {
+		return requestBody;
+	}
+
+	public void setRequestBody(String requestBody) {
+		this.requestBody = requestBody;
+	}
+
+	public String getResponseBody() {
+		return responseBody;
+	}
+
+	public void setResponseBody(String responseBody) {
+		this.responseBody = responseBody;
+	}
+
+	public int getStatus() {
 		return status;
 	}
 
@@ -99,20 +93,14 @@ public class ApiLog {
 	}
 
 	public LocalDateTime getTimestamp() {
-        return timestamp;
-    }
+		return timestamp;
+	}
 
-    public void setTimestamp(LocalDateTime timestamp) {
-        this.timestamp = timestamp;
-    }
+	public void setTimestamp(LocalDateTime timestamp) {
+		this.timestamp = timestamp;
+	}
 
-    public void setResponseBodyAsJson(String message) {
-        this.responseBody = "{\"message\": \"" + message.replace("\"", "\\\"") + "\"}";
-    }
+	public void setResponseBodyAsJson(String message) {
+		this.responseBody = "{\"message\": \"" + message.replace("\"", "\\\"") + "\"}";
+	}
 }
-
-
-
-
-
-

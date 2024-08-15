@@ -55,11 +55,12 @@ public class AutopayServiceImpl implements AutopayService {
 
 		if (rootNode.has("error")) {
 			JsonNode errorNode = rootNode.get("error");
+			
 			int statusCode = errorNode.get("status").asInt();
-			return ResponseEntity.status(statusCode).body("Failure: " + responseBody);
+			return ResponseEntity.status(statusCode).body(responseBody);
 		}
 
-		return ResponseEntity.ok("Success: " + responseBody);
+		return ResponseEntity.ok(responseBody);
 	}
 
 	public void logApi(String url, String requestBody, String responseBody, HttpStatus status) {
@@ -72,8 +73,8 @@ public class AutopayServiceImpl implements AutopayService {
 		apiLog.setTimestamp(LocalDateTime.now());
 		apiLogRepository.save(apiLog);
 
-		logger.info("API: {}, Status Code: {}, Status: {}, Request: {}, Response: {}", url, status.value(),
-				status.getReasonPhrase(), requestBody, responseBody);
+		logger.info("API: {}, Status: {}, Request: {}, Response: {}", url, status.value(),
+				 requestBody, responseBody);
 	}
 
 	@Override
