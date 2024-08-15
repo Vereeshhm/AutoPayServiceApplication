@@ -1,0 +1,487 @@
+15-08-2024 20:56:43.316 [34mINFO [0;39m com.example.Autopayservice.AutopayserviceApplication.logStarting::50 - Starting AutopayserviceApplication using Java 17.0.10 with PID 18896 (C:\Users\VereeshHereemata\Downloads\AutopayService-master\AutopayService-master\target\classes started by VereeshHereemata in C:\Users\VereeshHereemata\Downloads\AutopayService-master\AutopayService-master)
+15-08-2024 20:56:43.319 [34mINFO [0;39m com.example.Autopayservice.AutopayserviceApplication.logStartupProfileInfo::654 - No active profile set, falling back to 1 default profile: "default"
+15-08-2024 20:56:43.587 [34mINFO [0;39m org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn::143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+15-08-2024 20:56:43.607 [34mINFO [0;39m org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn::211 - Finished Spring Data repository scanning in 17 ms. Found 1 JPA repository interface.
+15-08-2024 20:56:43.729 [34mINFO [0;39m org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize::109 - Tomcat initialized with port 8080 (http)
+15-08-2024 20:56:43.729 [34mINFO [0;39m org.apache.catalina.core.StandardService.log::173 - Starting service [Tomcat]
+15-08-2024 20:56:43.729 [34mINFO [0;39m org.apache.catalina.core.StandardEngine.log::173 - Starting Servlet engine: [Apache Tomcat/10.1.20]
+15-08-2024 20:56:43.754 [34mINFO [0;39m org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log::173 - Initializing Spring embedded WebApplicationContext
+15-08-2024 20:56:43.755 [34mINFO [0;39m org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext::296 - Root WebApplicationContext: initialization completed in 432 ms
+15-08-2024 20:56:43.804 [34mINFO [0;39m org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation::31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+15-08-2024 20:56:43.807 [34mINFO [0;39m org.hibernate.cache.internal.RegionFactoryInitiator.initiateService::50 - HHH000026: Second-level cache disabled
+15-08-2024 20:56:43.814 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.getConnection::110 - HikariPool-2 - Starting...
+15-08-2024 20:56:43.857 [34mINFO [0;39m com.zaxxer.hikari.pool.HikariPool.checkFailFast::565 - HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@19500583
+15-08-2024 20:56:43.858 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.getConnection::123 - HikariPool-2 - Start completed.
+15-08-2024 20:56:43.872 [34mINFO [0;39m org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo.addTransformer::87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+15-08-2024 20:56:43.941 [34mINFO [0;39m org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService::58 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+15-08-2024 20:56:44.015 [34mINFO [0;39m org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory::437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+15-08-2024 20:56:44.086 [31mWARN [0;39m org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor::232 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+15-08-2024 20:56:44.190 [34mINFO [0;39m org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer::59 - LiveReload server is running on port 35729
+15-08-2024 20:56:44.201 [34mINFO [0;39m org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start::241 - Tomcat started on port 8080 (http) with context path ''
+15-08-2024 20:56:44.207 [34mINFO [0;39m com.example.Autopayservice.AutopayserviceApplication.logStarted::56 - Started AutopayserviceApplication in 0.967 seconds (process running for 33.092)
+15-08-2024 20:56:44.210 [34mINFO [0;39m org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener.onApplicationEvent::63 - Condition evaluation unchanged
+15-08-2024 20:56:55.139 [34mINFO [0;39m org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log::173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15-08-2024 20:56:55.834 [34mINFO [0;39m com.example.Autopayservice.serviceImpl.AutopayServiceImpl.fetchInitiate::94 - Response body: {"error":{"name":"error","message":"\"userDefinedField1\" must be a string","status":400,"reason":"ERROR","type":"Bad Request","statusCode":200}}
+15-08-2024 20:56:55.835 [34mINFO [0;39m com.example.Autopayservice.serviceImpl.AutopayServiceImpl.fetchInitiate::95 - Extracted CustomerAuthenticationId: 
+15-08-2024 20:56:55.952 [34mINFO [0;39m com.example.Autopayservice.serviceImpl.AutopayServiceImpl.logApi::75 - API: https://api-preproduction.signzy.app/api/v3/enach/initiatepayment, Status Code: 200, Status: OK, Request: {"id":0,"firstName":"Mithilesh","amount":"1","productInfo":"Netflix","phone":"9880418761","email":"Vereesh.Hereemata@saswatfinance.com","successRedirectUrl":"https://www.signzy.com/","failureRedirectUrl":"https://www.signzy.com/","maxAmount":"10.00","callbackUrl":"https://www.signzy.com/","finalCollectionDate":"2024/12/31","subMerchantId":"S79159ASPT","address1":"123 Street, Apt 4","address2":"456 Road","city":"Cityville","state":"delhi","country":"United States","zipcode":"123456","userDefinedField1":null,"userDefinedField2":null,"userDefinedField3":null}, Response: {"error":{"name":"error","message":"\"userDefinedField1\" must be a string","status":400,"reason":"ERROR","type":"Bad Request","statusCode":200}}
+15-08-2024 20:57:13.151 [34mINFO [0;39m org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener.onApplicationEvent::211 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+15-08-2024 20:57:13.193 [34mINFO [0;39m org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.destroy::650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+15-08-2024 20:57:13.205 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.close::350 - HikariPool-2 - Shutdown initiated...
+15-08-2024 20:57:13.233 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.close::352 - HikariPool-2 - Shutdown completed.
+15-08-2024 20:57:13.336 [34mINFO [0;39m com.example.Autopayservice.AutopayserviceApplication.logStarting::50 - Starting AutopayserviceApplication using Java 17.0.10 with PID 18896 (C:\Users\VereeshHereemata\Downloads\AutopayService-master\AutopayService-master\target\classes started by VereeshHereemata in C:\Users\VereeshHereemata\Downloads\AutopayService-master\AutopayService-master)
+15-08-2024 20:57:13.341 [34mINFO [0;39m com.example.Autopayservice.AutopayserviceApplication.logStartupProfileInfo::654 - No active profile set, falling back to 1 default profile: "default"
+15-08-2024 20:57:13.534 [34mINFO [0;39m org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn::143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+15-08-2024 20:57:13.551 [34mINFO [0;39m org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn::211 - Finished Spring Data repository scanning in 16 ms. Found 1 JPA repository interface.
+15-08-2024 20:57:13.656 [34mINFO [0;39m org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize::109 - Tomcat initialized with port 8080 (http)
+15-08-2024 20:57:13.657 [34mINFO [0;39m org.apache.catalina.core.StandardService.log::173 - Starting service [Tomcat]
+15-08-2024 20:57:13.657 [34mINFO [0;39m org.apache.catalina.core.StandardEngine.log::173 - Starting Servlet engine: [Apache Tomcat/10.1.20]
+15-08-2024 20:57:13.677 [34mINFO [0;39m org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log::173 - Initializing Spring embedded WebApplicationContext
+15-08-2024 20:57:13.678 [34mINFO [0;39m org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext::296 - Root WebApplicationContext: initialization completed in 334 ms
+15-08-2024 20:57:13.723 [34mINFO [0;39m org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation::31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+15-08-2024 20:57:13.728 [34mINFO [0;39m org.hibernate.cache.internal.RegionFactoryInitiator.initiateService::50 - HHH000026: Second-level cache disabled
+15-08-2024 20:57:13.734 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.getConnection::110 - HikariPool-3 - Starting...
+15-08-2024 20:57:13.791 [34mINFO [0;39m com.zaxxer.hikari.pool.HikariPool.checkFailFast::565 - HikariPool-3 - Added connection org.postgresql.jdbc.PgConnection@3668bc7d
+15-08-2024 20:57:13.791 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.getConnection::123 - HikariPool-3 - Start completed.
+15-08-2024 20:57:13.801 [34mINFO [0;39m org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo.addTransformer::87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+15-08-2024 20:57:13.865 [34mINFO [0;39m org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService::58 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+15-08-2024 20:57:13.895 [34mINFO [0;39m org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory::437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+15-08-2024 20:57:13.975 [31mWARN [0;39m org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor::232 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+15-08-2024 20:57:14.065 [34mINFO [0;39m org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer::59 - LiveReload server is running on port 35729
+15-08-2024 20:57:14.075 [34mINFO [0;39m org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start::241 - Tomcat started on port 8080 (http) with context path ''
+15-08-2024 20:57:14.081 [34mINFO [0;39m com.example.Autopayservice.AutopayserviceApplication.logStarted::56 - Started AutopayserviceApplication in 0.788 seconds (process running for 62.965)
+15-08-2024 20:57:14.082 [34mINFO [0;39m org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener.onApplicationEvent::63 - Condition evaluation unchanged
+15-08-2024 20:57:48.329 [34mINFO [0;39m com.example.Autopayservice.AutopayserviceApplication.logStarting::50 - Starting AutopayserviceApplication using Java 17.0.10 with PID 14912 (C:\Users\VereeshHereemata\Downloads\AutopayService-master\AutopayService-master\target\classes started by VereeshHereemata in C:\Users\VereeshHereemata\Downloads\AutopayService-master\AutopayService-master)
+15-08-2024 20:57:48.333 [34mINFO [0;39m com.example.Autopayservice.AutopayserviceApplication.logStartupProfileInfo::654 - No active profile set, falling back to 1 default profile: "default"
+15-08-2024 20:57:48.430 [34mINFO [0;39m org.springframework.boot.devtools.restart.ChangeableUrls.logTo::252 - The Class-Path manifest attribute in C:\Users\VereeshHereemata\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar referenced one or more files that do not exist: file:/C:/Users/VereeshHereemata/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-api-2.3.1.jar,file:/C:/Users/VereeshHereemata/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/txw2-2.3.1.jar,file:/C:/Users/VereeshHereemata/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/istack-commons-runtime-3.0.7.jar,file:/C:/Users/VereeshHereemata/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/stax-ex-1.8.jar,file:/C:/Users/VereeshHereemata/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/FastInfoset-1.2.15.jar,file:/C:/Users/VereeshHereemata/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/javax.activation-api-1.2.0.jar
+15-08-2024 20:57:48.431 [34mINFO [0;39m org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo::252 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+15-08-2024 20:57:48.431 [34mINFO [0;39m org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo::252 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+15-08-2024 20:57:49.313 [34mINFO [0;39m org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn::143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+15-08-2024 20:57:49.384 [34mINFO [0;39m org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn::211 - Finished Spring Data repository scanning in 61 ms. Found 1 JPA repository interface.
+15-08-2024 20:57:50.269 [34mINFO [0;39m org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize::109 - Tomcat initialized with port 8080 (http)
+15-08-2024 20:57:50.281 [34mINFO [0;39m org.apache.catalina.core.StandardService.log::173 - Starting service [Tomcat]
+15-08-2024 20:57:50.282 [34mINFO [0;39m org.apache.catalina.core.StandardEngine.log::173 - Starting Servlet engine: [Apache Tomcat/10.1.20]
+15-08-2024 20:57:50.340 [34mINFO [0;39m org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log::173 - Initializing Spring embedded WebApplicationContext
+15-08-2024 20:57:50.341 [34mINFO [0;39m org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext::296 - Root WebApplicationContext: initialization completed in 1909 ms
+15-08-2024 20:57:50.555 [34mINFO [0;39m org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation::31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+15-08-2024 20:57:50.637 [34mINFO [0;39m org.hibernate.Version.logVersion::44 - HHH000412: Hibernate ORM core version 6.4.4.Final
+15-08-2024 20:57:50.680 [34mINFO [0;39m org.hibernate.cache.internal.RegionFactoryInitiator.initiateService::50 - HHH000026: Second-level cache disabled
+15-08-2024 20:57:50.810 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.getConnection::110 - HikariPool-1 - Starting...
+15-08-2024 20:57:51.014 [34mINFO [0;39m com.zaxxer.hikari.pool.HikariPool.checkFailFast::565 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@42170eb0
+15-08-2024 20:57:51.016 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.getConnection::123 - HikariPool-1 - Start completed.
+15-08-2024 20:57:51.388 [34mINFO [0;39m org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo.addTransformer::87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+15-08-2024 20:57:52.256 [34mINFO [0;39m org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService::58 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+15-08-2024 20:57:52.309 [34mINFO [0;39m org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory::437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+15-08-2024 20:57:52.761 [31mWARN [0;39m org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor::232 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+15-08-2024 20:57:53.251 [34mINFO [0;39m org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer::59 - LiveReload server is running on port 35729
+15-08-2024 20:57:53.300 [34mINFO [0;39m org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start::241 - Tomcat started on port 8080 (http) with context path ''
+15-08-2024 20:57:53.314 [34mINFO [0;39m com.example.Autopayservice.AutopayserviceApplication.logStarted::56 - Started AutopayserviceApplication in 5.432 seconds (process running for 5.909)
+15-08-2024 20:57:58.307 [34mINFO [0;39m org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log::173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15-08-2024 20:57:59.395 [34mINFO [0;39m com.example.Autopayservice.serviceImpl.AutopayServiceImpl.fetchInitiate::94 - Response body: {"result":{"txnId":"66be1e7f817a3a001741b964","amount":"1","productInfo":"Netflix","firstName":"Mithilesh","phone":"9880418761","email":"Vereesh.Hereemata@saswatfinance.com","customerAuthenticationId":"66be1e7f817a3a001741b964","data":"https://testpay.easebuzz.in/pay/73689955edaf8b40f057521b4e23d20174f56d5e910f8ae9822888f02e7ff6f0"}}
+15-08-2024 20:57:59.396 [34mINFO [0;39m com.example.Autopayservice.serviceImpl.AutopayServiceImpl.fetchInitiate::95 - Extracted CustomerAuthenticationId: 66be1e7f817a3a001741b964
+15-08-2024 20:57:59.523 [34mINFO [0;39m com.example.Autopayservice.serviceImpl.AutopayServiceImpl.logApi::75 - API: https://api-preproduction.signzy.app/api/v3/enach/initiatepayment, Status Code: 200, Status: OK, Request: {"id":0,"firstName":"Mithilesh","amount":"1","productInfo":"Netflix","phone":"9880418761","email":"Vereesh.Hereemata@saswatfinance.com","successRedirectUrl":"https://www.signzy.com/","failureRedirectUrl":"https://www.signzy.com/","maxAmount":"10.00","callbackUrl":"https://www.signzy.com/","finalCollectionDate":"2024/12/31","subMerchantId":"S79159ASPT","address1":"123 Street, Apt 4","address2":"456 Road","city":"Cityville","state":"delhi","country":"United States","zipcode":"123456"}, Response: {"result":{"txnId":"66be1e7f817a3a001741b964","amount":"1","productInfo":"Netflix","firstName":"Mithilesh","phone":"9880418761","email":"Vereesh.Hereemata@saswatfinance.com","customerAuthenticationId":"66be1e7f817a3a001741b964","data":"https://testpay.easebuzz.in/pay/73689955edaf8b40f057521b4e23d20174f56d5e910f8ae9822888f02e7ff6f0"}}
+15-08-2024 20:58:09.328 [34mINFO [0;39m com.example.Autopayservice.serviceImpl.AutopayServiceImpl.fetchDebitRequest::126 - Response body: {"error":{"name":"error","message":"No active auto debit authorization found for the given customer authentication ID. Transaction ID: 66be1e89ac3d4d0011281e13","status":"404","reason":"ERROR","type":"Not Found","statusCode":200}}
+15-08-2024 20:58:09.328 [34mINFO [0;39m com.example.Autopayservice.serviceImpl.AutopayServiceImpl.fetchDebitRequest::127 - Extracted txnId: 
+15-08-2024 20:58:09.334 [34mINFO [0;39m com.example.Autopayservice.serviceImpl.AutopayServiceImpl.logApi::75 - API: https://api-preproduction.signzy.app/api/v3/enach/debitrequest, Status Code: 200, Status: OK, Request: {"customerAuthenticationId":"66be1e7f817a3a001741b964","amount":"8.0","productInfo":"Netflix","firstName":"Mithilesh","phone":"9880418761","email":"Vereesh.Hereemata@saswatfinance.com","successRedirectUrl":"https://www.google.com/","failureRedirectUrl":"https://www.signzy.com/","callbackUrl":"https://www.signzy.com/","maxAmount":"20.0","subMerchantId":"S79159ASPT","finalCollectionDate":"2024/12/31"}, Response: {"error":{"name":"error","message":"No active auto debit authorization found for the given customer authentication ID. Transaction ID: 66be1e89ac3d4d0011281e13","status":"404","reason":"ERROR","type":"Not Found","statusCode":200}}
+15-08-2024 20:58:16.340 [34mINFO [0;39m com.example.Autopayservice.serviceImpl.AutopayServiceImpl.fetchTransactionstatus::156 - Response body: {"error":{"name":"error","message":"\"txnId\" is not allowed to be empty","status":400,"reason":"ERROR","type":"Bad Request","statusCode":200}}
+15-08-2024 20:58:16.351 [34mINFO [0;39m com.example.Autopayservice.serviceImpl.AutopayServiceImpl.logApi::75 - API: https://api-preproduction.signzy.app/api/v3/enach/transactionstatus, Status Code: 200, Status: OK, Request: {"txnId":"","amount":"8.0","email":"Vereesh.Hereemata@saswatfinance.com","phone":"9880418761"}, Response: {"error":{"name":"error","message":"\"txnId\" is not allowed to be empty","status":400,"reason":"ERROR","type":"Bad Request","statusCode":200}}
+15-08-2024 20:59:32.661 [34mINFO [0;39m com.example.Autopayservice.serviceImpl.AutopayServiceImpl.fetchDebitRequest::126 - Response body: {"result":{"txnId":"66be1edc817a3a001741b966","amount":"8.0","productInfo":"Netflix","firstName":"Mithilesh","phone":"9880418761","email":"Vereesh.Hereemata@saswatfinance.com","customerAuthenticationId":"66be1e7f817a3a001741b964","autoDebitAccessKey":"ac8d9cca-f82c-4c53-a917-410e44ec3295","signzyId":"S240815073TDTN","merchantDebitId":"60b37a8f-1384-4fc0-8d53-78432c55b574","data":{"status":1,"data":"Auto debit request accepted successfully"}}}
+15-08-2024 20:59:32.662 [34mINFO [0;39m com.example.Autopayservice.serviceImpl.AutopayServiceImpl.fetchDebitRequest::127 - Extracted txnId: 66be1edc817a3a001741b966
+15-08-2024 20:59:32.672 [34mINFO [0;39m com.example.Autopayservice.serviceImpl.AutopayServiceImpl.logApi::75 - API: https://api-preproduction.signzy.app/api/v3/enach/debitrequest, Status Code: 200, Status: OK, Request: {"customerAuthenticationId":"66be1e7f817a3a001741b964","amount":"8.0","productInfo":"Netflix","firstName":"Mithilesh","phone":"9880418761","email":"Vereesh.Hereemata@saswatfinance.com","successRedirectUrl":"https://www.google.com/","failureRedirectUrl":"https://www.signzy.com/","callbackUrl":"https://www.signzy.com/","maxAmount":"20.0","subMerchantId":"S79159ASPT","finalCollectionDate":"2024/12/31"}, Response: {"result":{"txnId":"66be1edc817a3a001741b966","amount":"8.0","productInfo":"Netflix","firstName":"Mithilesh","phone":"9880418761","email":"Vereesh.Hereemata@saswatfinance.com","customerAuthenticationId":"66be1e7f817a3a001741b964","autoDebitAccessKey":"ac8d9cca-f82c-4c53-a917-410e44ec3295","signzyId":"S240815073TDTN","merchantDebitId":"60b37a8f-1384-4fc0-8d53-78432c55b574","data":{"status":1,"data":"Auto debit request accepted successfully"}}}
+15-08-2024 20:59:39.620 [34mINFO [0;39m com.example.Autopayservice.serviceImpl.AutopayServiceImpl.fetchTransactionstatus::156 - Response body: {"msg":{"txnId":"66be1edc817a3a001741b966","firstName":"Mithilesh","phone":"9880418761","email":"Vereesh.Hereemata@saswatfinance.com","mode":"NA","unmappedstatus":"NA","cardCategory":"NA","addedon":"2024-08-15 15:29:32","paymentSource":"Easebuzz","pgType":"NA","bankRefNum":"NA","bankcode":"NA","error":"NA","errorMessage":"NA","nameOnCard":"NA","upiva":"NA","cardnum":"NA","issuingbank":"NA","amount":"8.0","netAmountDebit":"8.0","cashBackPercentage":"50.0","deductionPercentage":"0","merchantLogo":"NA","successCallbackUrl":"https://www.google.com/","failureCallbackUrl":"https://www.signzy.com/","productinfo":"Netflix","signzyId":"S240815073TDTT","userDefinedField1":"","userDefinedField2":"","UserDefinedField3":"","cardType":"NA","status":"preinitiated","bankName":"NA","authCode":""}}
+15-08-2024 20:59:39.636 [34mINFO [0;39m com.example.Autopayservice.serviceImpl.AutopayServiceImpl.logApi::75 - API: https://api-preproduction.signzy.app/api/v3/enach/transactionstatus, Status Code: 200, Status: OK, Request: {"txnId":"66be1edc817a3a001741b966","amount":"8.0","email":"Vereesh.Hereemata@saswatfinance.com","phone":"9880418761"}, Response: {"msg":{"txnId":"66be1edc817a3a001741b966","firstName":"Mithilesh","phone":"9880418761","email":"Vereesh.Hereemata@saswatfinance.com","mode":"NA","unmappedstatus":"NA","cardCategory":"NA","addedon":"2024-08-15 15:29:32","paymentSource":"Easebuzz","pgType":"NA","bankRefNum":"NA","bankcode":"NA","error":"NA","errorMessage":"NA","nameOnCard":"NA","upiva":"NA","cardnum":"NA","issuingbank":"NA","amount":"8.0","netAmountDebit":"8.0","cashBackPercentage":"50.0","deductionPercentage":"0","merchantLogo":"NA","successCallbackUrl":"https://www.google.com/","failureCallbackUrl":"https://www.signzy.com/","productinfo":"Netflix","signzyId":"S240815073TDTT","userDefinedField1":"","userDefinedField2":"","UserDefinedField3":"","cardType":"NA","status":"preinitiated","bankName":"NA","authCode":""}}
+15-08-2024 21:00:28.165 [34mINFO [0;39m org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener.onApplicationEvent::211 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+15-08-2024 21:00:28.194 [34mINFO [0;39m org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.destroy::650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+15-08-2024 21:00:28.205 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.close::350 - HikariPool-1 - Shutdown initiated...
+15-08-2024 21:00:28.228 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.close::352 - HikariPool-1 - Shutdown completed.
+15-08-2024 21:00:28.327 [34mINFO [0;39m com.example.Autopayservice.AutopayserviceApplication.logStarting::50 - Starting AutopayserviceApplication using Java 17.0.10 with PID 14912 (C:\Users\VereeshHereemata\Downloads\AutopayService-master\AutopayService-master\target\classes started by VereeshHereemata in C:\Users\VereeshHereemata\Downloads\AutopayService-master\AutopayService-master)
+15-08-2024 21:00:28.328 [34mINFO [0;39m com.example.Autopayservice.AutopayserviceApplication.logStartupProfileInfo::654 - No active profile set, falling back to 1 default profile: "default"
+15-08-2024 21:00:28.560 [34mINFO [0;39m org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn::143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+15-08-2024 21:00:28.580 [34mINFO [0;39m org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn::211 - Finished Spring Data repository scanning in 20 ms. Found 1 JPA repository interface.
+15-08-2024 21:00:28.711 [34mINFO [0;39m org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize::109 - Tomcat initialized with port 8080 (http)
+15-08-2024 21:00:28.712 [34mINFO [0;39m org.apache.catalina.core.StandardService.log::173 - Starting service [Tomcat]
+15-08-2024 21:00:28.712 [34mINFO [0;39m org.apache.catalina.core.StandardEngine.log::173 - Starting Servlet engine: [Apache Tomcat/10.1.20]
+15-08-2024 21:00:28.732 [34mINFO [0;39m org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log::173 - Initializing Spring embedded WebApplicationContext
+15-08-2024 21:00:28.733 [34mINFO [0;39m org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext::296 - Root WebApplicationContext: initialization completed in 400 ms
+15-08-2024 21:00:28.771 [34mINFO [0;39m org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation::31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+15-08-2024 21:00:28.776 [34mINFO [0;39m org.hibernate.cache.internal.RegionFactoryInitiator.initiateService::50 - HHH000026: Second-level cache disabled
+15-08-2024 21:00:28.783 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.getConnection::110 - HikariPool-2 - Starting...
+15-08-2024 21:00:28.835 [34mINFO [0;39m com.zaxxer.hikari.pool.HikariPool.checkFailFast::565 - HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@4e75e53b
+15-08-2024 21:00:28.836 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.getConnection::123 - HikariPool-2 - Start completed.
+15-08-2024 21:00:28.848 [34mINFO [0;39m org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo.addTransformer::87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+15-08-2024 21:00:28.917 [34mINFO [0;39m org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService::58 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+15-08-2024 21:00:28.947 [34mINFO [0;39m org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory::437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+15-08-2024 21:00:29.023 [31mWARN [0;39m org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor::232 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+15-08-2024 21:00:29.139 [34mINFO [0;39m org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer::59 - LiveReload server is running on port 35729
+15-08-2024 21:00:29.149 [34mINFO [0;39m org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start::241 - Tomcat started on port 8080 (http) with context path ''
+15-08-2024 21:00:29.163 [34mINFO [0;39m com.example.Autopayservice.AutopayserviceApplication.logStarted::56 - Started AutopayserviceApplication in 0.864 seconds (process running for 161.753)
+15-08-2024 21:00:29.167 [34mINFO [0;39m org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener.onApplicationEvent::63 - Condition evaluation unchanged
+15-08-2024 21:01:38.467 [34mINFO [0;39m org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener.onApplicationEvent::211 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+15-08-2024 21:01:38.488 [34mINFO [0;39m org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.destroy::650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+15-08-2024 21:01:38.488 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.close::350 - HikariPool-2 - Shutdown initiated...
+15-08-2024 21:01:38.508 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.close::352 - HikariPool-2 - Shutdown completed.
+15-08-2024 21:01:38.579 [34mINFO [0;39m com.example.Autopayservice.AutopayserviceApplication.logStarting::50 - Starting AutopayserviceApplication using Java 17.0.10 with PID 14912 (C:\Users\VereeshHereemata\Downloads\AutopayService-master\AutopayService-master\target\classes started by VereeshHereemata in C:\Users\VereeshHereemata\Downloads\AutopayService-master\AutopayService-master)
+15-08-2024 21:01:38.579 [34mINFO [0;39m com.example.Autopayservice.AutopayserviceApplication.logStartupProfileInfo::654 - No active profile set, falling back to 1 default profile: "default"
+15-08-2024 21:01:38.761 [34mINFO [0;39m org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn::143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+15-08-2024 21:01:38.774 [34mINFO [0;39m org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn::211 - Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interface.
+15-08-2024 21:01:38.880 [34mINFO [0;39m org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize::109 - Tomcat initialized with port 8080 (http)
+15-08-2024 21:01:38.881 [34mINFO [0;39m org.apache.catalina.core.StandardService.log::173 - Starting service [Tomcat]
+15-08-2024 21:01:38.881 [34mINFO [0;39m org.apache.catalina.core.StandardEngine.log::173 - Starting Servlet engine: [Apache Tomcat/10.1.20]
+15-08-2024 21:01:38.901 [34mINFO [0;39m org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log::173 - Initializing Spring embedded WebApplicationContext
+15-08-2024 21:01:38.901 [34mINFO [0;39m org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext::296 - Root WebApplicationContext: initialization completed in 319 ms
+15-08-2024 21:01:38.937 [34mINFO [0;39m org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation::31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+15-08-2024 21:01:38.940 [34mINFO [0;39m org.hibernate.cache.internal.RegionFactoryInitiator.initiateService::50 - HHH000026: Second-level cache disabled
+15-08-2024 21:01:38.946 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.getConnection::110 - HikariPool-3 - Starting...
+15-08-2024 21:01:38.999 [34mINFO [0;39m com.zaxxer.hikari.pool.HikariPool.checkFailFast::565 - HikariPool-3 - Added connection org.postgresql.jdbc.PgConnection@169add0e
+15-08-2024 21:01:39.000 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.getConnection::123 - HikariPool-3 - Start completed.
+15-08-2024 21:01:39.011 [34mINFO [0;39m org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo.addTransformer::87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+15-08-2024 21:01:39.067 [34mINFO [0;39m org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService::58 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+15-08-2024 21:01:39.096 [34mINFO [0;39m org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory::437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+15-08-2024 21:01:39.171 [31mWARN [0;39m org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor::232 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+15-08-2024 21:01:39.275 [34mINFO [0;39m org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer::59 - LiveReload server is running on port 35729
+15-08-2024 21:01:39.287 [34mINFO [0;39m org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start::241 - Tomcat started on port 8080 (http) with context path ''
+15-08-2024 21:01:39.292 [34mINFO [0;39m com.example.Autopayservice.AutopayserviceApplication.logStarted::56 - Started AutopayserviceApplication in 0.739 seconds (process running for 231.887)
+15-08-2024 21:01:39.294 [34mINFO [0;39m org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener.onApplicationEvent::63 - Condition evaluation unchanged
+15-08-2024 21:01:42.734 [34mINFO [0;39m org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log::173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15-08-2024 21:01:42.746 [1;31mERROR[0;39m org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet].log::175 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "Object.toString()" because "cancelRequest" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "Object.toString()" because "cancelRequest" is null
+	at com.example.Autopayservice.serviceImpl.AutopayServiceImpl.fetchCancelrequest(AutopayServiceImpl.java:194) ~[classes/:na]
+	at com.example.Autopayservice.controller.Autopaycontroller.getCancelmandate(Autopaycontroller.java:49) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.20.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.20.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:206) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+15-08-2024 21:05:00.623 [34mINFO [0;39m com.example.Autopayservice.AutopayserviceApplication.logStarting::50 - Starting AutopayserviceApplication using Java 17.0.10 with PID 10680 (C:\Users\VereeshHereemata\Downloads\AutopayService-master\AutopayService-master\target\classes started by VereeshHereemata in C:\Users\VereeshHereemata\Downloads\AutopayService-master\AutopayService-master)
+15-08-2024 21:05:00.627 [34mINFO [0;39m com.example.Autopayservice.AutopayserviceApplication.logStartupProfileInfo::654 - No active profile set, falling back to 1 default profile: "default"
+15-08-2024 21:05:00.705 [34mINFO [0;39m org.springframework.boot.devtools.restart.ChangeableUrls.logTo::252 - The Class-Path manifest attribute in C:\Users\VereeshHereemata\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar referenced one or more files that do not exist: file:/C:/Users/VereeshHereemata/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-api-2.3.1.jar,file:/C:/Users/VereeshHereemata/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/txw2-2.3.1.jar,file:/C:/Users/VereeshHereemata/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/istack-commons-runtime-3.0.7.jar,file:/C:/Users/VereeshHereemata/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/stax-ex-1.8.jar,file:/C:/Users/VereeshHereemata/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/FastInfoset-1.2.15.jar,file:/C:/Users/VereeshHereemata/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/javax.activation-api-1.2.0.jar
+15-08-2024 21:05:00.705 [34mINFO [0;39m org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo::252 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+15-08-2024 21:05:00.705 [34mINFO [0;39m org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo::252 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+15-08-2024 21:05:01.541 [34mINFO [0;39m org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn::143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+15-08-2024 21:05:01.630 [34mINFO [0;39m org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn::211 - Finished Spring Data repository scanning in 72 ms. Found 1 JPA repository interface.
+15-08-2024 21:05:02.467 [34mINFO [0;39m org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize::109 - Tomcat initialized with port 8080 (http)
+15-08-2024 21:05:02.481 [34mINFO [0;39m org.apache.catalina.core.StandardService.log::173 - Starting service [Tomcat]
+15-08-2024 21:05:02.481 [34mINFO [0;39m org.apache.catalina.core.StandardEngine.log::173 - Starting Servlet engine: [Apache Tomcat/10.1.20]
+15-08-2024 21:05:02.532 [34mINFO [0;39m org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log::173 - Initializing Spring embedded WebApplicationContext
+15-08-2024 21:05:02.533 [34mINFO [0;39m org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext::296 - Root WebApplicationContext: initialization completed in 1827 ms
+15-08-2024 21:05:02.767 [34mINFO [0;39m org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation::31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+15-08-2024 21:05:02.841 [34mINFO [0;39m org.hibernate.Version.logVersion::44 - HHH000412: Hibernate ORM core version 6.4.4.Final
+15-08-2024 21:05:02.890 [34mINFO [0;39m org.hibernate.cache.internal.RegionFactoryInitiator.initiateService::50 - HHH000026: Second-level cache disabled
+15-08-2024 21:05:03.028 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.getConnection::110 - HikariPool-1 - Starting...
+15-08-2024 21:05:03.236 [34mINFO [0;39m com.zaxxer.hikari.pool.HikariPool.checkFailFast::565 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@55dd359d
+15-08-2024 21:05:03.238 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.getConnection::123 - HikariPool-1 - Start completed.
+15-08-2024 21:05:03.618 [34mINFO [0;39m org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo.addTransformer::87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+15-08-2024 21:05:04.521 [34mINFO [0;39m org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService::58 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+15-08-2024 21:05:04.580 [34mINFO [0;39m org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory::437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+15-08-2024 21:05:05.035 [31mWARN [0;39m org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor::232 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+15-08-2024 21:05:05.584 [34mINFO [0;39m org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer::59 - LiveReload server is running on port 35729
+15-08-2024 21:05:05.640 [34mINFO [0;39m org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start::241 - Tomcat started on port 8080 (http) with context path ''
+15-08-2024 21:05:05.660 [34mINFO [0;39m com.example.Autopayservice.AutopayserviceApplication.logStarted::56 - Started AutopayserviceApplication in 5.551 seconds (process running for 6.063)
+15-08-2024 21:05:09.294 [34mINFO [0;39m org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log::173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15-08-2024 21:05:09.379 [1;31mERROR[0;39m org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet].log::175 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "Object.toString()" because "cancelRequest" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "Object.toString()" because "cancelRequest" is null
+	at com.example.Autopayservice.serviceImpl.AutopayServiceImpl.fetchCancelrequest(AutopayServiceImpl.java:194)
+	at com.example.Autopayservice.controller.Autopaycontroller.getCancelMandate(Autopaycontroller.java:48)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+15-08-2024 21:06:18.667 [34mINFO [0;39m org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener.onApplicationEvent::211 - Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+15-08-2024 21:06:18.702 [34mINFO [0;39m org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.destroy::650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+15-08-2024 21:06:18.705 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.close::350 - HikariPool-1 - Shutdown initiated...
+15-08-2024 21:06:18.729 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.close::352 - HikariPool-1 - Shutdown completed.
+15-08-2024 21:06:18.824 [34mINFO [0;39m com.example.Autopayservice.AutopayserviceApplication.logStarting::50 - Starting AutopayserviceApplication using Java 17.0.10 with PID 10680 (C:\Users\VereeshHereemata\Downloads\AutopayService-master\AutopayService-master\target\classes started by VereeshHereemata in C:\Users\VereeshHereemata\Downloads\AutopayService-master\AutopayService-master)
+15-08-2024 21:06:18.825 [34mINFO [0;39m com.example.Autopayservice.AutopayserviceApplication.logStartupProfileInfo::654 - No active profile set, falling back to 1 default profile: "default"
+15-08-2024 21:06:19.022 [34mINFO [0;39m org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn::143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+15-08-2024 21:06:19.035 [34mINFO [0;39m org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn::211 - Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interface.
+15-08-2024 21:06:19.151 [34mINFO [0;39m org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize::109 - Tomcat initialized with port 8080 (http)
+15-08-2024 21:06:19.153 [34mINFO [0;39m org.apache.catalina.core.StandardService.log::173 - Starting service [Tomcat]
+15-08-2024 21:06:19.153 [34mINFO [0;39m org.apache.catalina.core.StandardEngine.log::173 - Starting Servlet engine: [Apache Tomcat/10.1.20]
+15-08-2024 21:06:19.178 [34mINFO [0;39m org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log::173 - Initializing Spring embedded WebApplicationContext
+15-08-2024 21:06:19.179 [34mINFO [0;39m org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext::296 - Root WebApplicationContext: initialization completed in 350 ms
+15-08-2024 21:06:19.233 [34mINFO [0;39m org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation::31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+15-08-2024 21:06:19.237 [34mINFO [0;39m org.hibernate.cache.internal.RegionFactoryInitiator.initiateService::50 - HHH000026: Second-level cache disabled
+15-08-2024 21:06:19.244 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.getConnection::110 - HikariPool-2 - Starting...
+15-08-2024 21:06:19.284 [34mINFO [0;39m com.zaxxer.hikari.pool.HikariPool.checkFailFast::565 - HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@5b201227
+15-08-2024 21:06:19.285 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.getConnection::123 - HikariPool-2 - Start completed.
+15-08-2024 21:06:19.298 [34mINFO [0;39m org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo.addTransformer::87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+15-08-2024 21:06:19.370 [34mINFO [0;39m org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService::58 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+15-08-2024 21:06:19.405 [34mINFO [0;39m org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory::437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+15-08-2024 21:06:19.491 [31mWARN [0;39m org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor::232 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+15-08-2024 21:06:19.625 [34mINFO [0;39m org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer::59 - LiveReload server is running on port 35729
+15-08-2024 21:06:19.636 [34mINFO [0;39m org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start::241 - Tomcat started on port 8080 (http) with context path ''
+15-08-2024 21:06:19.641 [34mINFO [0;39m com.example.Autopayservice.AutopayserviceApplication.logStarted::56 - Started AutopayserviceApplication in 0.854 seconds (process running for 80.044)
+15-08-2024 21:06:19.643 [34mINFO [0;39m org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener.onApplicationEvent::63 - Condition evaluation unchanged
+15-08-2024 21:06:23.560 [34mINFO [0;39m org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log::173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15-08-2024 21:06:25.573 [34mINFO [0;39m com.example.Autopayservice.serviceImpl.AutopayServiceImpl.fetchInitiate::94 - Response body: {"result":{"txnId":"66be2079817a3a001741b967","amount":"1","productInfo":"Netflix","firstName":"Mithilesh","phone":"9880418761","email":"Vereesh.Hereemata@saswatfinance.com","customerAuthenticationId":"66be2079817a3a001741b967","data":"https://testpay.easebuzz.in/pay/34091a23c0cc8cda99d96f770a75ac727bdd4a70ca27e8c29aad07e271e32bdd"}}
+15-08-2024 21:06:25.578 [34mINFO [0;39m com.example.Autopayservice.serviceImpl.AutopayServiceImpl.fetchInitiate::95 - Extracted CustomerAuthenticationId: 66be2079817a3a001741b967
+15-08-2024 21:06:25.716 [34mINFO [0;39m com.example.Autopayservice.serviceImpl.AutopayServiceImpl.logApi::75 - API: https://api-preproduction.signzy.app/api/v3/enach/initiatepayment, Status Code: 200, Status: OK, Request: {"id":0,"firstName":"Mithilesh","amount":"1","productInfo":"Netflix","phone":"9880418761","email":"Vereesh.Hereemata@saswatfinance.com","successRedirectUrl":"https://www.signzy.com/","failureRedirectUrl":"https://www.signzy.com/","maxAmount":"10.00","callbackUrl":"https://www.signzy.com/","finalCollectionDate":"2024/12/31","subMerchantId":"S79159ASPT","address1":"123 Street, Apt 4","address2":"456 Road","city":"Cityville","state":"delhi","country":"United States","zipcode":"123456"}, Response: {"result":{"txnId":"66be2079817a3a001741b967","amount":"1","productInfo":"Netflix","firstName":"Mithilesh","phone":"9880418761","email":"Vereesh.Hereemata@saswatfinance.com","customerAuthenticationId":"66be2079817a3a001741b967","data":"https://testpay.easebuzz.in/pay/34091a23c0cc8cda99d96f770a75ac727bdd4a70ca27e8c29aad07e271e32bdd"}}
+15-08-2024 21:06:28.942 [34mINFO [0;39m com.example.Autopayservice.serviceImpl.AutopayServiceImpl.fetchDebitRequest::126 - Response body: {"error":{"name":"error","message":"No active auto debit authorization found for the given customer authentication ID. Transaction ID: 66be207cac3d4d0011281e14","status":"404","reason":"ERROR","type":"Not Found","statusCode":200}}
+15-08-2024 21:06:28.942 [34mINFO [0;39m com.example.Autopayservice.serviceImpl.AutopayServiceImpl.fetchDebitRequest::127 - Extracted txnId: 
+15-08-2024 21:06:28.942 [34mINFO [0;39m com.example.Autopayservice.serviceImpl.AutopayServiceImpl.logApi::75 - API: https://api-preproduction.signzy.app/api/v3/enach/debitrequest, Status Code: 200, Status: OK, Request: {"customerAuthenticationId":"66be2079817a3a001741b967","amount":"8.0","productInfo":"Netflix","firstName":"Mithilesh","phone":"9880418761","email":"Vereesh.Hereemata@saswatfinance.com","successRedirectUrl":"https://www.google.com/","failureRedirectUrl":"https://www.signzy.com/","callbackUrl":"https://www.signzy.com/","maxAmount":"20.0","subMerchantId":"S79159ASPT","finalCollectionDate":"2024/12/31"}, Response: {"error":{"name":"error","message":"No active auto debit authorization found for the given customer authentication ID. Transaction ID: 66be207cac3d4d0011281e14","status":"404","reason":"ERROR","type":"Not Found","statusCode":200}}
+15-08-2024 21:06:32.624 [34mINFO [0;39m com.example.Autopayservice.serviceImpl.AutopayServiceImpl.fetchTransactionstatus::156 - Response body: {"error":{"name":"error","message":"\"txnId\" is not allowed to be empty","status":400,"reason":"ERROR","type":"Bad Request","statusCode":200}}
+15-08-2024 21:06:32.627 [34mINFO [0;39m com.example.Autopayservice.serviceImpl.AutopayServiceImpl.logApi::75 - API: https://api-preproduction.signzy.app/api/v3/enach/transactionstatus, Status Code: 200, Status: OK, Request: {"txnId":"","amount":"8.0","email":"Vereesh.Hereemata@saswatfinance.com","phone":"9880418761"}, Response: {"error":{"name":"error","message":"\"txnId\" is not allowed to be empty","status":400,"reason":"ERROR","type":"Bad Request","statusCode":200}}
+15-08-2024 21:06:41.621 [1;31mERROR[0;39m org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet].log::175 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.example.Autopayservice.Utils.CancelRequest.toString()" because "cancelRequest" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "com.example.Autopayservice.Utils.CancelRequest.toString()" because "cancelRequest" is null
+	at com.example.Autopayservice.serviceImpl.AutopayServiceImpl.fetchCancelrequest(AutopayServiceImpl.java:194) ~[classes/:na]
+	at com.example.Autopayservice.controller.Autopaycontroller.getCancelMandate(Autopaycontroller.java:48) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.20.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.20.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:206) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+15-08-2024 21:07:27.591 [34mINFO [0;39m com.example.Autopayservice.serviceImpl.AutopayServiceImpl.logApi::75 - API: https://api-preproduction.signzy.app/api/v3/enach/cancelmandate, Status Code: 400, Status: Bad Request, Request: CancelRequest [customerAuthenticationId=66be2079817a3a001741b967], Response: {"error":{"error":{"name":"error","message":"Error processing cancel debit payment request","status":409,"reason":"ERROR","type":"Conflict","statusCode":409}}}
+15-08-2024 21:07:36.440 [34mINFO [0;39m com.example.Autopayservice.serviceImpl.AutopayServiceImpl.logApi::75 - API: https://api-preproduction.signzy.app/api/v3/enach/cancelmandate, Status Code: 400, Status: Bad Request, Request: CancelRequest [customerAuthenticationId=66be2079817a3a001741b967], Response: {"error":{"error":{"name":"error","message":"Error processing cancel debit payment request","status":409,"reason":"ERROR","type":"Conflict","statusCode":409}}}
+15-08-2024 21:09:30.563 [34mINFO [0;39m com.example.Autopayservice.AutopayserviceApplication.logStarting::50 - Starting AutopayserviceApplication using Java 17.0.10 with PID 21564 (C:\Users\VereeshHereemata\Downloads\AutopayService-master\AutopayService-master\target\classes started by VereeshHereemata in C:\Users\VereeshHereemata\Downloads\AutopayService-master\AutopayService-master)
+15-08-2024 21:09:30.567 [34mINFO [0;39m com.example.Autopayservice.AutopayserviceApplication.logStartupProfileInfo::654 - No active profile set, falling back to 1 default profile: "default"
+15-08-2024 21:09:30.660 [34mINFO [0;39m org.springframework.boot.devtools.restart.ChangeableUrls.logTo::252 - The Class-Path manifest attribute in C:\Users\VereeshHereemata\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar referenced one or more files that do not exist: file:/C:/Users/VereeshHereemata/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-api-2.3.1.jar,file:/C:/Users/VereeshHereemata/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/txw2-2.3.1.jar,file:/C:/Users/VereeshHereemata/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/istack-commons-runtime-3.0.7.jar,file:/C:/Users/VereeshHereemata/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/stax-ex-1.8.jar,file:/C:/Users/VereeshHereemata/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/FastInfoset-1.2.15.jar,file:/C:/Users/VereeshHereemata/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/javax.activation-api-1.2.0.jar
+15-08-2024 21:09:30.660 [34mINFO [0;39m org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo::252 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+15-08-2024 21:09:30.661 [34mINFO [0;39m org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo::252 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+15-08-2024 21:09:31.648 [34mINFO [0;39m org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn::143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+15-08-2024 21:09:31.741 [34mINFO [0;39m org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn::211 - Finished Spring Data repository scanning in 80 ms. Found 1 JPA repository interface.
+15-08-2024 21:09:32.704 [34mINFO [0;39m org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize::109 - Tomcat initialized with port 8080 (http)
+15-08-2024 21:09:32.717 [34mINFO [0;39m org.apache.catalina.core.StandardService.log::173 - Starting service [Tomcat]
+15-08-2024 21:09:32.718 [34mINFO [0;39m org.apache.catalina.core.StandardEngine.log::173 - Starting Servlet engine: [Apache Tomcat/10.1.20]
+15-08-2024 21:09:32.780 [34mINFO [0;39m org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log::173 - Initializing Spring embedded WebApplicationContext
+15-08-2024 21:09:32.782 [34mINFO [0;39m org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext::296 - Root WebApplicationContext: initialization completed in 2121 ms
+15-08-2024 21:09:33.003 [34mINFO [0;39m org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation::31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+15-08-2024 21:09:33.091 [34mINFO [0;39m org.hibernate.Version.logVersion::44 - HHH000412: Hibernate ORM core version 6.4.4.Final
+15-08-2024 21:09:33.146 [34mINFO [0;39m org.hibernate.cache.internal.RegionFactoryInitiator.initiateService::50 - HHH000026: Second-level cache disabled
+15-08-2024 21:09:33.281 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.getConnection::110 - HikariPool-1 - Starting...
+15-08-2024 21:09:33.514 [34mINFO [0;39m com.zaxxer.hikari.pool.HikariPool.checkFailFast::565 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5684a6df
+15-08-2024 21:09:33.516 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.getConnection::123 - HikariPool-1 - Start completed.
+15-08-2024 21:09:33.916 [34mINFO [0;39m org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo.addTransformer::87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+15-08-2024 21:09:34.906 [34mINFO [0;39m org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService::58 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+15-08-2024 21:09:35.011 [34mINFO [0;39m org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory::437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+15-08-2024 21:09:35.449 [31mWARN [0;39m org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor::232 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+15-08-2024 21:09:35.988 [34mINFO [0;39m org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer::59 - LiveReload server is running on port 35729
+15-08-2024 21:09:36.039 [34mINFO [0;39m org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start::241 - Tomcat started on port 8080 (http) with context path ''
+15-08-2024 21:09:36.061 [34mINFO [0;39m com.example.Autopayservice.AutopayserviceApplication.logStarted::56 - Started AutopayserviceApplication in 6.068 seconds (process running for 6.571)
+15-08-2024 21:09:43.539 [34mINFO [0;39m org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener.onApplicationEvent::211 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+15-08-2024 21:09:43.572 [34mINFO [0;39m org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.destroy::650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+15-08-2024 21:09:43.589 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.close::350 - HikariPool-1 - Shutdown initiated...
+15-08-2024 21:09:43.617 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.close::352 - HikariPool-1 - Shutdown completed.
+15-08-2024 21:09:43.720 [34mINFO [0;39m com.example.Autopayservice.AutopayserviceApplication.logStarting::50 - Starting AutopayserviceApplication using Java 17.0.10 with PID 21564 (C:\Users\VereeshHereemata\Downloads\AutopayService-master\AutopayService-master\target\classes started by VereeshHereemata in C:\Users\VereeshHereemata\Downloads\AutopayService-master\AutopayService-master)
+15-08-2024 21:09:43.723 [34mINFO [0;39m com.example.Autopayservice.AutopayserviceApplication.logStartupProfileInfo::654 - No active profile set, falling back to 1 default profile: "default"
+15-08-2024 21:09:43.965 [34mINFO [0;39m org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn::143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+15-08-2024 21:09:43.981 [34mINFO [0;39m org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn::211 - Finished Spring Data repository scanning in 15 ms. Found 1 JPA repository interface.
+15-08-2024 21:09:44.101 [34mINFO [0;39m org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize::109 - Tomcat initialized with port 8080 (http)
+15-08-2024 21:09:44.103 [34mINFO [0;39m org.apache.catalina.core.StandardService.log::173 - Starting service [Tomcat]
+15-08-2024 21:09:44.103 [34mINFO [0;39m org.apache.catalina.core.StandardEngine.log::173 - Starting Servlet engine: [Apache Tomcat/10.1.20]
+15-08-2024 21:09:44.130 [34mINFO [0;39m org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log::173 - Initializing Spring embedded WebApplicationContext
+15-08-2024 21:09:44.131 [34mINFO [0;39m org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext::296 - Root WebApplicationContext: initialization completed in 404 ms
+15-08-2024 21:09:44.188 [34mINFO [0;39m org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation::31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+15-08-2024 21:09:44.192 [34mINFO [0;39m org.hibernate.cache.internal.RegionFactoryInitiator.initiateService::50 - HHH000026: Second-level cache disabled
+15-08-2024 21:09:44.198 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.getConnection::110 - HikariPool-2 - Starting...
+15-08-2024 21:09:44.245 [34mINFO [0;39m com.zaxxer.hikari.pool.HikariPool.checkFailFast::565 - HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@64fdfe03
+15-08-2024 21:09:44.245 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.getConnection::123 - HikariPool-2 - Start completed.
+15-08-2024 21:09:44.257 [34mINFO [0;39m org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo.addTransformer::87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+15-08-2024 21:09:44.327 [34mINFO [0;39m org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService::58 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+15-08-2024 21:09:44.352 [34mINFO [0;39m org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory::437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+15-08-2024 21:09:44.424 [31mWARN [0;39m org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor::232 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+15-08-2024 21:09:44.525 [34mINFO [0;39m org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer::59 - LiveReload server is running on port 35729
+15-08-2024 21:09:44.536 [34mINFO [0;39m org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start::241 - Tomcat started on port 8080 (http) with context path ''
+15-08-2024 21:09:44.542 [34mINFO [0;39m com.example.Autopayservice.AutopayserviceApplication.logStarted::56 - Started AutopayserviceApplication in 0.868 seconds (process running for 15.05)
+15-08-2024 21:09:44.544 [34mINFO [0;39m org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener.onApplicationEvent::63 - Condition evaluation unchanged
+15-08-2024 21:09:51.154 [34mINFO [0;39m org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log::173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15-08-2024 21:09:52.185 [34mINFO [0;39m com.example.Autopayservice.serviceImpl.AutopayServiceImpl.fetchInitiate::94 - Response body: {"result":{"txnId":"66be2148ac3d4d0011281e15","amount":"1","productInfo":"Netflix","firstName":"Mithilesh","phone":"9880418761","email":"Vereesh.Hereemata@saswatfinance.com","customerAuthenticationId":"66be2148ac3d4d0011281e15","data":"https://testpay.easebuzz.in/pay/462f91832ffa1a671520245c1341c179fb61797217bc5c4970a24541f23f3a7c"}}
+15-08-2024 21:09:52.188 [34mINFO [0;39m com.example.Autopayservice.serviceImpl.AutopayServiceImpl.fetchInitiate::95 - Extracted CustomerAuthenticationId: 66be2148ac3d4d0011281e15
+15-08-2024 21:09:52.291 [34mINFO [0;39m com.example.Autopayservice.serviceImpl.AutopayServiceImpl.logApi::75 - API: https://api-preproduction.signzy.app/api/v3/enach/initiatepayment, Status Code: 200, Status: OK, Request: {"id":0,"firstName":"Mithilesh","amount":"1","productInfo":"Netflix","phone":"9880418761","email":"Vereesh.Hereemata@saswatfinance.com","successRedirectUrl":"https://www.signzy.com/","failureRedirectUrl":"https://www.signzy.com/","maxAmount":"10.00","callbackUrl":"https://www.signzy.com/","finalCollectionDate":"2024/12/31","subMerchantId":"S79159ASPT","address1":"123 Street, Apt 4","address2":"456 Road","city":"Cityville","state":"delhi","country":"United States","zipcode":"123456"}, Response: {"result":{"txnId":"66be2148ac3d4d0011281e15","amount":"1","productInfo":"Netflix","firstName":"Mithilesh","phone":"9880418761","email":"Vereesh.Hereemata@saswatfinance.com","customerAuthenticationId":"66be2148ac3d4d0011281e15","data":"https://testpay.easebuzz.in/pay/462f91832ffa1a671520245c1341c179fb61797217bc5c4970a24541f23f3a7c"}}
+15-08-2024 21:10:27.870 [34mINFO [0;39m com.example.Autopayservice.serviceImpl.AutopayServiceImpl.fetchDebitRequest::126 - Response body: {"result":{"txnId":"66be216bac3d4d0011281e17","amount":"8.0","productInfo":"Netflix","firstName":"Mithilesh","phone":"9880418761","email":"Vereesh.Hereemata@saswatfinance.com","customerAuthenticationId":"66be2148ac3d4d0011281e15","autoDebitAccessKey":"fb10d49e-d658-498b-b698-be327c4d7890","signzyId":"S240815073TDU1","merchantDebitId":"23d67a87-1fb7-4739-b24b-4719e51a2f3a","data":{"status":1,"data":"Auto debit request accepted successfully"}}}
+15-08-2024 21:10:27.870 [34mINFO [0;39m com.example.Autopayservice.serviceImpl.AutopayServiceImpl.fetchDebitRequest::127 - Extracted txnId: 66be216bac3d4d0011281e17
+15-08-2024 21:10:27.879 [34mINFO [0;39m com.example.Autopayservice.serviceImpl.AutopayServiceImpl.logApi::75 - API: https://api-preproduction.signzy.app/api/v3/enach/debitrequest, Status Code: 200, Status: OK, Request: {"customerAuthenticationId":"66be2148ac3d4d0011281e15","amount":"8.0","productInfo":"Netflix","firstName":"Mithilesh","phone":"9880418761","email":"Vereesh.Hereemata@saswatfinance.com","successRedirectUrl":"https://www.google.com/","failureRedirectUrl":"https://www.signzy.com/","callbackUrl":"https://www.signzy.com/","maxAmount":"20.0","subMerchantId":"S79159ASPT","finalCollectionDate":"2024/12/31"}, Response: {"result":{"txnId":"66be216bac3d4d0011281e17","amount":"8.0","productInfo":"Netflix","firstName":"Mithilesh","phone":"9880418761","email":"Vereesh.Hereemata@saswatfinance.com","customerAuthenticationId":"66be2148ac3d4d0011281e15","autoDebitAccessKey":"fb10d49e-d658-498b-b698-be327c4d7890","signzyId":"S240815073TDU1","merchantDebitId":"23d67a87-1fb7-4739-b24b-4719e51a2f3a","data":{"status":1,"data":"Auto debit request accepted successfully"}}}
+15-08-2024 21:10:34.231 [34mINFO [0;39m com.example.Autopayservice.serviceImpl.AutopayServiceImpl.fetchTransactionstatus::156 - Response body: {"msg":{"txnId":"66be216bac3d4d0011281e17","firstName":"Mithilesh","phone":"9880418761","email":"Vereesh.Hereemata@saswatfinance.com","mode":"NA","unmappedstatus":"NA","cardCategory":"NA","addedon":"2024-08-15 15:40:27","paymentSource":"Easebuzz","pgType":"NA","bankRefNum":"NA","bankcode":"NA","error":"NA","errorMessage":"NA","nameOnCard":"NA","upiva":"NA","cardnum":"NA","issuingbank":"NA","amount":"8.0","netAmountDebit":"8.0","cashBackPercentage":"50.0","deductionPercentage":"0","merchantLogo":"NA","successCallbackUrl":"https://www.google.com/","failureCallbackUrl":"https://www.signzy.com/","productinfo":"Netflix","signzyId":"S240815073TDU2","userDefinedField1":"","userDefinedField2":"","UserDefinedField3":"","cardType":"NA","status":"preinitiated","bankName":"NA","authCode":""}}
+15-08-2024 21:10:34.241 [34mINFO [0;39m com.example.Autopayservice.serviceImpl.AutopayServiceImpl.logApi::75 - API: https://api-preproduction.signzy.app/api/v3/enach/transactionstatus, Status Code: 200, Status: OK, Request: {"txnId":"66be216bac3d4d0011281e17","amount":"8.0","email":"Vereesh.Hereemata@saswatfinance.com","phone":"9880418761"}, Response: {"msg":{"txnId":"66be216bac3d4d0011281e17","firstName":"Mithilesh","phone":"9880418761","email":"Vereesh.Hereemata@saswatfinance.com","mode":"NA","unmappedstatus":"NA","cardCategory":"NA","addedon":"2024-08-15 15:40:27","paymentSource":"Easebuzz","pgType":"NA","bankRefNum":"NA","bankcode":"NA","error":"NA","errorMessage":"NA","nameOnCard":"NA","upiva":"NA","cardnum":"NA","issuingbank":"NA","amount":"8.0","netAmountDebit":"8.0","cashBackPercentage":"50.0","deductionPercentage":"0","merchantLogo":"NA","successCallbackUrl":"https://www.google.com/","failureCallbackUrl":"https://www.signzy.com/","productinfo":"Netflix","signzyId":"S240815073TDU2","userDefinedField1":"","userDefinedField2":"","UserDefinedField3":"","cardType":"NA","status":"preinitiated","bankName":"NA","authCode":""}}
+15-08-2024 21:11:00.525 [34mINFO [0;39m com.example.Autopayservice.serviceImpl.AutopayServiceImpl.fetchCancelrequest::184 - Response body: {"status":true,"data":{"customerAuthenticationId":"66be2148ac3d4d0011281e15","signzyId":"S240815073TDU1"}}
+15-08-2024 21:11:00.541 [34mINFO [0;39m com.example.Autopayservice.serviceImpl.AutopayServiceImpl.logApi::75 - API: https://api-preproduction.signzy.app/api/v3/enach/cancelmandate, Status Code: 200, Status: OK, Request: {"customerAuthenticationId":"66be2148ac3d4d0011281e15"}, Response: {"status":true,"data":{"customerAuthenticationId":"66be2148ac3d4d0011281e15","signzyId":"S240815073TDU1"}}
+15-08-2024 21:11:08.327 [1;31mERROR[0;39m org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet].log::175 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.example.Autopayservice.Utils.CancelRequest.toString()" because "cancelRequest" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "com.example.Autopayservice.Utils.CancelRequest.toString()" because "cancelRequest" is null
+	at com.example.Autopayservice.serviceImpl.AutopayServiceImpl.fetchCancelrequest(AutopayServiceImpl.java:194) ~[classes/:na]
+	at com.example.Autopayservice.controller.Autopaycontroller.getCancelMandate(Autopaycontroller.java:47) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.20.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.20.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:206) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+15-08-2024 21:11:15.846 [34mINFO [0;39m com.example.Autopayservice.serviceImpl.AutopayServiceImpl.fetchCancelrequest::184 - Response body: {"status":true,"message":"Mandate is already cancelled.","data":{"customerAuthenticationId":"66be2148ac3d4d0011281e15","signzyId":"S240815073TDU1"}}
+15-08-2024 21:11:15.877 [34mINFO [0;39m com.example.Autopayservice.serviceImpl.AutopayServiceImpl.logApi::75 - API: https://api-preproduction.signzy.app/api/v3/enach/cancelmandate, Status Code: 200, Status: OK, Request: {"customerAuthenticationId":"66be2148ac3d4d0011281e15"}, Response: {"status":true,"message":"Mandate is already cancelled.","data":{"customerAuthenticationId":"66be2148ac3d4d0011281e15","signzyId":"S240815073TDU1"}}
